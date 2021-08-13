@@ -21,7 +21,7 @@ pal = colorNumeric("viridis", values(allrasters[[1]]),na.color = "transparent")
 
 ubicacion<-matrix(0,15,2)
 ubicacion<-data.frame(ubicacion)
-file_js_2<-readOGR("agrospace_piloto.kml")
+file_js_2<-readOGR("shape/agrospace_piloto.kml")
 
 for(i in seq(1:15)){
   ubicacion[i,1]<-data.frame(file_js_2@polygons[[i]]@labpt[1])
