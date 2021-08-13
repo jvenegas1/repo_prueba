@@ -1,2 +1,2 @@
 # repo_prueba
-Este es el repositorio de prueba 
+Este es el repositorio del primer dashboard AgroSpace 
