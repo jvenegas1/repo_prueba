@@ -67,20 +67,20 @@ shinyServer(function(input, output) {
     
     output$plot1_19<-renderLeaflet({
     
-    load("RData/potreros_2019.RData")
+    source("modulo_1/potreros_2019.R")
     fig1
     
     })
     
     output$plot1_20<-renderLeaflet({
         
-    load("RData/potreros_2020.RData")
+    source("modulo_1/potreros_2020.R")
     fig2    
     })
     
     output$plot1_21<-renderLeaflet({
         
-    load("RData/potreros_2021.RData")
+    source("modulo_1/potreros_2021.R")
     fig3    
     
     })
