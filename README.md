@@ -1,2 +1,2 @@
 # repo_prueba
-Repositorio de prueba
+Este es el repositorio de prueba 
